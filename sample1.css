@@ -1,0 +1,67 @@
+@import url(sanitize.css);
+
+body {
+  background-color: #fafafa;
+}
+h1 {
+  font-size: 24px;
+  background: #a6d3c8; /*背景色*/
+  padding: 0.5em;/*文字周りの余白*/
+  color: white;/*文字を白に*/
+  border-radius: 0.5em;/*角の丸み*/
+
+}
+h2 {
+  /*線の種類（実線） 太さ 色*/
+  font-size: 20px;
+  border-bottom: solid 3px #a6d3c8;
+}
+ul {
+  padding: 0;
+}
+ul li, ol li {
+  color: #404040;
+  border-left: solid 6px #1fa67a;/*左側の線*/
+  border-bottom: solid 2px #dadada;/*下に灰色線*/
+  background: whitesmoke;
+  margin-bottom: 5px;/*下のバーとの余白*/
+  line-height: 1.5;
+  padding: 0.5em;
+  list-style-type: none!important;/*ポチ消す*/
+  font-weight: bold;
+}
+input {
+  border: none;
+  border-bottom: 1px solid #d1d1d1;
+  font-size: 1.2em;
+  width: 100%;
+  padding: 8px;
+}
+.btn2{
+  width: 100%;
+  background-color: #2096F3;
+  border: none;
+  color: white;
+  padding: 15px;
+  border-radius: 0.5em;
+  font-size: 1.5em;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.4);
+}
+.content1{
+  background-color: #fff;
+  width: 650px;
+  margin: 10px auto;
+  border: 1px solid #d1d1d1;
+  padding: 30px;
+}
+.control {
+  margin-bottom: 3em;
+}
+.required {
+  margin-left: .3em;
+  color: #f33;
+  font-size: .9em;
+  padding: 3px;
+  background-color: #fee;
+  font-weight: bold;
+}
